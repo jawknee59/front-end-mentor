@@ -1,0 +1,113 @@
+body {
+    display: grid;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: grid;
+    place-content: center;
+} 
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 30px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0px 0px 40px 0px lightgrey;
+}
+
+.results-card, .summary-card {
+    border-radius: 30px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.results-card {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result-title, .max-score {
+    color: hsl(0, 0%, 100%);;
+}
+
+.score-circle {
+    width: 140px;
+    background-image: linear-gradient(
+        hsla(256, 72%, 46%, 1),    
+        hsla(241, 72%, 46%, 0)
+    );
+    border-radius: 50%;
+    margin: 1rem auto;
+    padding: 1.4rem;
+}
+
+.score {
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.results-summary {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+
+.summary-card {
+    padding: 1.5rem 2rem;
+    text-align: left;
+}
+
+.row {
+    /* display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1.1rem;
+}
+
+.reaction, .memory, .verbal, .visual {
+    border-radius: 1rem;
+    margin: 0.3rem 0.3rem;
+}
+
+.reaction {
+    background-color: hsl(0, 100%, 67%, 5%);
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    background-color: hsl(39, 100%, 56%, 5%);
+    color: hsl(39, 100%, 56%);
+}
+.verbal {
+    background-color: hsl(166, 100%, 37%, 5%);
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    background-color: hsl(234, 85%, 45%, 5%);
+    color: hsl(234, 85%, 45%);
+}
+
+.icon {
+    text-align: left;
+    display: grid;
+    align-content: center;
+}
+
+.button {
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: #FFF;
+    font-weight: 700;
+    padding: 1rem 8rem;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+
+  
